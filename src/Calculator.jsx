@@ -173,7 +173,25 @@ function Calculator() {
     }
     setOutput(result);
   };
-
+//m
+   const handleMemory = (type) => {
+    switch (type) {
+      case "M+":
+        setMemory(memory + Number(output));
+        break;
+      case "M-":
+        setMemory(memory - Number(output));
+        break;
+      case "MR":
+        setOutput(memory.toString());
+        break;
+      case "MC":
+        setMemory(0);
+        break;
+      default:
+        break;
+    }
+  };
 // fact
   const factorial = (num) => {
     if (num === 0 || num === 1) {
