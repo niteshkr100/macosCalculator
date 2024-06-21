@@ -5,7 +5,7 @@ npm install or npm i
 
 ## Getting Started
 
-for running the app
+for running the app----->
 
 npm run dev
 
