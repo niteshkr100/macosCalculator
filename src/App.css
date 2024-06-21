@@ -1,0 +1,101 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto';
+}
+
+.calculator {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  width: 740px; /* Adjusted width */
+  height: 500px;
+  background: #333;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.output {
+  background: #444;
+  color: white;
+  text-align: right;
+  padding: 20px; /* Adjusted padding */
+  font-size: 2rem; /* Adjusted font size */
+}
+
+button {
+  background-color: rgb(133, 134, 134);
+  border: 1px solid black;
+  font-size: 1rem; /* Adjusted font size */
+  padding: 15px; /* Adjusted padding */
+  cursor: pointer;
+  outline: none;
+  color: white;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  border: none;
+}
+
+button:hover {
+  background: #c2c1c1;
+}
+
+button#clear {
+  grid-column: span 2;
+  background-color: rgb(88, 89, 89);
+  color: white;
+}
+button#zero {
+  grid-column: span 2;
+  color: white;
+}
+button#modular {
+  background-color: rgb(88, 89, 89);
+}
+.b{
+  background-color: rgb(88, 89, 89);
+}
+.b:hover{
+  background-color: rgb(110, 110, 110);
+}
+button#clear:hover {
+  background-color: rgb(110, 110, 110);
+}
+
+button#modular:hover {
+  background-color: rgb(110, 110, 110);
+}
+
+button#one {
+  grid-column: span 2;
+}
+
+button#equals {
+  grid-row: span 1;
+  background: #ff9500;
+  color: white;
+}
+
+button#divide,
+button#multiply,
+button#subtract,
+button#add {
+  background: #f8960e;
+  color: white;
+}
+ 
+button:active {
+  background: #bbb;
+}
+
+
+ 
+
+ 
