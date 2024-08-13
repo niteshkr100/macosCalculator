@@ -1,5 +1,4 @@
-## Website Link(hosted using netlify)
- 
+
 ## Before Getting Started download node module
 npm install or npm i
 
