@@ -10,7 +10,7 @@
   
   ### Getting Started
   
-  for running the app----->
+  for running the website on local----->
   
   npm run dev
 
