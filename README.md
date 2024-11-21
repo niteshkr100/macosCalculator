@@ -3,7 +3,7 @@
    #### 1. Fork the repository to your GitHub account.
    #### 2. Clone the forked repository to your local machine.
    ```bash
-   git clone https://github.com/niteshkr100/Legant.git
+   git clone https://github.com/niteshkr100/macosCalculator.git
    ```
   ### Before Getting Started download node module
   npm install or npm i
